@@ -132,7 +132,7 @@ class QQ_zone():
         friends_list = {'uinlist':[]}
         for i in range(999):
             param = {
-                'uin':'1069777539',
+                'uin':'你自己的QQ',
                 'action': '1',
                 'offset': '{}'.format(i*50),
                 'g_tk':g_tk
@@ -250,7 +250,7 @@ class QQ_zone():
                 'if_first_page': '1',
                 'begin_uin': '0',
                 'query_count': '60',
-                'uin':'1069777539'
+                'uin':'你自己的QQ'
             }
 
             url = 'https://user.qzone.qq.com/proxy/domain/users.qzone.qq.com/cgi-bin/likes/get_like_list_app?'
